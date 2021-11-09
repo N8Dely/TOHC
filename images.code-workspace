@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"name": "TOHC NOT compressed images",
+			"path": "../Desktop/The-Ohio-Hemp-Co./TOHC NOT compressed images"
+		},
+		{
+			"name": "The-Ohio-Hemp-Co.",
+			"path": "."
+		},
+		{
+			"name": "TOHC HTML",
+			"path": "../Desktop/The-Ohio-Hemp-Co./TOHC HTML"
+		},
+		{
+			"name": "TOHC STYLES",
+			"path": "../Desktop/The-Ohio-Hemp-Co./TOHC STYLES"
+		},
+		{
+			"name": "TOHC JS",
+			"path": "../Desktop/The-Ohio-Hemp-Co./TOHC JS"
+		},
+		{
+			"path": "../Desktop/The-Ohio-Hemp-Co./images compressed"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "The-Ohio-Hemp-Co."
+	}
+}
