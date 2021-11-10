@@ -80,10 +80,12 @@ a:hover {
 }
 .navbar-logo { 
     display: flex;
-    padding: 0rem;
+    padding: .3rem;
     margin: 0rem;
     flex-direction: row;
     justify-content: left;
+    background-image: url('image23.jpg');
+    background-size: 36%;
 }
 
 .main-content {
