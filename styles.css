@@ -1,8 +1,7 @@
 * {
     margin: auto;
     padding: auto;
-    display: flexbox;
-    color: cornsilk;
+    color: gold;
     text-decoration: none;
 }
 
@@ -10,16 +9,31 @@
     list-style: none;
     background-color: darkgreen;
     display: flex;
-    padding: 1.2rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
     flex-direction: row;
     margin: 0;
-    justify-content: space-evenly ;
-    font: 19px;
-    font-weight: bolder;
+    justify-content: left;
+    font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     
 }
+.navbar {
+    font-size: 22px;
+}
+.navbar-logo { 
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navlogo-fixed {
+    position: fixed;
+    top: 0;
+}
+
+
 .service-image-styles {
     display: flexbox;
     padding: 0rem;
@@ -37,14 +51,10 @@
     background-size: 36% 75%;
     background-attachment: fixed;
 }
-/* .home-background {
-    background-image: url('');
-    margin: 0rem;
-    padding: 12rem;
-} */
+
 .aboutus-image-styles {
     display: flex;
-    padding: 0rem;
+    padding-bottom: 10px;
     flex-direction: row;
     justify-content: space-evenly;
     margin: 0rem;
@@ -54,13 +64,13 @@
 .section-title {
     display: flex;
     justify-content: center,space-evenly;
-    padding: 2rem;
+    padding-top: 32px;
+    padding-bottom: 25px;
 }
 .paragraph-text {
     display: flexbox;
     flex-direction: column;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 2rem;
     justify-content: space-evenly;
     font-size: 20px;
     font-weight: 700;
@@ -71,22 +81,6 @@ a:hover {
     color: blueviolet;
 }
 
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin: 0rem auto 20px;
-    font-size: 22px;
-}
-.navbar-logo { 
-    display: flex;
-    padding: .3rem;
-    margin: 0rem;
-    flex-direction: row;
-    justify-content: left;
-    background-image: url('image23.jpg');
-    background-size: 36%;
-}
 
 .main-content {
     display: flexbox;
@@ -96,61 +90,113 @@ a:hover {
     width: 100%;
     height: 100%;
 }
-.footer> ul {
+
+.footer>ul {
     list-style: none;
     background-color: darkgreen;
     display: flex;
     padding: auto;
     flex-direction: column;
-    margin: 9;
+    margin: 0;
     justify-content: center,space-evenly;
     font-size: 19px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     color: cornsilk;
-    
-}
-/* #navigation{
-    background-color: chartreuse;
-}
-
-.nav{
-    height: 60px;
-    width: 1000px;
-    margin: 0 auto 20px;
-}
-
-.footer{
-    clear: both;
     width: 100%;
 }
-
-.header,
-section,
-footer,
-aside,
-main,
-article,
-figure {
-    display:block;
+.footer {
+    height: 100%;
 }
 
-.nav>ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+/* 3D Carousel rotating by Claudiu Lazar */
+
+body {
+    text-align: justify;
+    height: 100%;
+    width: 100%;
+  }
+
+  .container {
+    position: relative;
+    max-width:  300px;
+    margin: auto;
+    perspective: 1000px;
+    display: flexbox;
+    background-color: black;
+    padding: auto;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .tohcCarousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+    display: flex;
+  }
+
+  .carousel_Strains { 
+    position: absolute;
+    justify-content: center;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    display: flex;
+
+  }
+  
+  span {
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+  .carousel_Strains:nth-child(1) {
+    background-image: url("logo.jpg");
+    transform: rotateY(  0deg) translateZ(290px); }
+  .carousel_Strains:nth-child(2) { 
+    background-image: url("image8.jpg");
+      transform: rotateY( 60deg) translateZ(290px); }
+  .carousel_Strains:nth-child(3) {
+    background-image: url("image10.jpg");
+    transform: rotateY( 120deg) translateZ(290px); }
+  .carousel_Strains:nth-child(4) {
+    background-image: url("image26.jpg");
+    transform: rotateY(180deg) translateZ(290px); }
+  .carousel_Strains:nth-child(5) { 
+    background-image: url("image23.jpg");
+   transform: rotateY(240deg) translateZ(290px); }
+  .carousel_Strains:nth-child(6) { 
+    background-image: url("image13.jpg");
+   transform: rotateY(300deg) translateZ(290px); }
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+
+.order-section{
+      text-align: center;
+  }
+
+  .Order>h1 {
+      padding-bottom: 32px;
+      padding-top: 25px ;
+  }
+
+.fix-footer{
+    padding-top: 400px;
 }
 
-.navl>li>ul{
-    float:inline-start;
-}
+/* 3D Carousel rotating by Claudiu Lazar */
 
-.nav>ul>li a {
-    display: block;
-    color: darkgreen;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    font-weight: lighter; 
-} */
