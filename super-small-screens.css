@@ -1,0 +1,68 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+* {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+
+@media only screen and (min-width: 360px) {
+    * {
+        margin: auto;
+        padding: auto;
+        color: gold;
+        text-decoration: none;
+    }
+    .fix-footer{
+        padding-top: 100px;
+
+    }
+    .orderdiv{
+        display: none;
+    }
+    .navlogo-fixed{
+        display: none;
+    }
+    .strains2{
+        display: none;
+    }
+    .strains4{
+        display: none;
+    }
+    .strains1{
+        display: none;
+    }
+    .strains2{
+        display: none;
+    }
+    .services1 {
+        display: none;
+    }
+    .services2{
+        display: none;
+    }
+    .services4{
+        display: none;
+    }
+    .aboutus1{
+        display: none;
+    }
+    .aboutus3{
+        display: none;
+    }
+    .navbar{
+        font-size: 12px;
+    }
+    .logo-background{
+       background-image: none;
+       padding: 2;
+    }
+    .home-image-styles { 
+        display: flex;
+        padding: 2rem;
+        flex-direction: row;
+        justify-content: center;
+       
+    }
+    .section-title{
+        font-size: 16px;
+    } 
+    
+}
+ /* Ending of super-small-screens media query */

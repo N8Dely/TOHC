@@ -1,6 +1,39 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1700px) {
+  
+  .fix-footer{
+    padding-top: 400px;
 
-
+}
+.orderdiv{
+    display: initial;
+}
+.navlogo-fixed{
+    display: initial;
+}
+.strains2{
+    display: initial;
+}
+.strains4{
+    display: initial;
+}
+.strains1{
+    display: initial;
+}
+.services1 {
+    display: initial;
+}
+.services2{
+    display: initial;
+}
+.services4{
+    display: initial;
+}
+.aboutus1{
+    display: initial;
+}
+.aboutus3{
+    display: initial;
+}
 
 
 

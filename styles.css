@@ -4,7 +4,6 @@
     color: gold;
     text-decoration: none;
 }
-
 .nav, ul {
     list-style: none;
     background-color: darkgreen;
@@ -33,7 +32,6 @@
     top: 0;
 }
 
-
 .service-image-styles {
     display: flexbox;
     padding: 0rem;
@@ -48,6 +46,8 @@
     flex-direction: row;
     justify-content: center;
     margin: 0rem;
+}
+.logo-background{
     background-image: url('image23.jpg');
     background-size: 36% 75%;
     background-attachment: fixed;
@@ -197,7 +197,8 @@ body {
 
 .fix-footer{
     padding-top: 400px;
-}
+} 
+/* 3D Carousel rotating by Claudiu Lazar
 
-/* 3D Carousel rotating by Claudiu Lazar */
+
 

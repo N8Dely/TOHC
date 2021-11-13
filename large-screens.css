@@ -1,5 +1,26 @@
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1300px) {
 
+    .navlogo-fixed{
+        display: initial;
+    }
+    
+    .strains3{
+        display: initial;
+    }
+    .strains4{
+        display: initial;
+    }
+    .services1{
+        display: initial;
+    }
+    .services4{
+        display: initial;
+    }
+
+    
+    .aboutus3{
+        display: initial;
+    }
 
 
 

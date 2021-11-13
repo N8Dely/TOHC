@@ -1,11 +1,33 @@
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-* {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+@media only screen and (min-width: 768px) {
+    * {
+        margin: auto;
+        padding: auto;
+        color: gold;
+        text-decoration: none;
+    }
+    .fix-footer{
+        padding-top: 400px;
 
-
-@media only screen and (min-width: 576px) {
-
-
-
-
-
-} /* Ending of small-screens media query */
+    }
+    .orderdiv{
+        display: initial;
+        font-size: 32px;
+    }
+    .navbar{
+        font-size: 22px;
+    }
+    .logo-background{
+        background-image: url('image23.jpg');
+        background-size: 36% 75%;
+        background-attachment: fixed;
+    }
+    .home-image-styles { 
+        display: flex;
+        padding: 11rem;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0rem;
+       
+    }
+}
+ /* Ending of small-screens media query */

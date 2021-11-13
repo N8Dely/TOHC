@@ -1,5 +1,17 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
+    
+    
 
+    .strains1{
+        display: initial;
+    }
+   
+    .services1{
+        display: initial;
+    }
+    .aboutus3{
+        display: initial;
+    }
 
 
 
