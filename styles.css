@@ -40,6 +40,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin: 1rem;
+    font-size: 20px;
 }
 .home-image-styles { 
     display: flex;
@@ -63,7 +64,7 @@
 
 .section-title {
     display: flex;
-    justify-content: center,space-evenly;
+    justify-content: center;
     padding-top: 32px;
     padding-bottom: 25px;
 }
