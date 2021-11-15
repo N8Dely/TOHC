@@ -1,0 +1,81 @@
+@media only screen and (min-width: 768px) {
+    * {
+        margin: auto;
+        padding: auto;
+        color: gold;
+        text-decoration: none;
+    }
+    .fix-footer{
+        padding-top: 400px;
+
+    }
+    .orderdiv{
+        display: initial;
+        font-size: 32px;
+    }
+    .order-li4{
+        display: initial;
+    }
+    .strains3 >img {
+        border-radius: 44px;
+        height: 450px;
+        width: 450px ;
+    }
+    .services3 >img {
+        border-radius: 90px 5px 110px;
+        width: 450px;
+        height: 450px;
+    }
+    .aboutus2 >img{
+        border-radius: 50%;
+        width: 500px;
+        height: 500px;
+    }
+    .paragraph-text{
+        font-size: 18px;
+        margin: 1rem;
+    }
+    .extra-filler{
+        display: initial;
+    }
+    .section-title{
+        font-size: 16px;
+    } 
+    .navlogo-fixed >a >img{
+        width: 54px;
+        height: 54px;
+        border-radius: 44px;
+        margin: 0rem;
+    
+    }
+    .navlogo-fixed {
+        position: fixed;
+        top: 0.4rem;
+        left: 0.4rem;
+    }
+    .navbar{
+        font-size: 16px;
+    }
+    .logo-background{
+        background-image: url('image23.jpg');
+        background-size: 36% 75%;
+        background-attachment: fixed;
+    }
+    .home-image-styles >img{
+        width: 500px;
+        height: 500px;
+        border-radius: 24px;
+    }
+    .home-image-styles { 
+        display: flex;
+        padding: 11rem;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0rem;
+    }
+    .footer >ul {
+        font-size: 16px;
+    }
+    
+}
+ /* Ending of SMedium-screens media query */

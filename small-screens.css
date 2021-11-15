@@ -1,33 +1,71 @@
-@media only screen and (min-width: 768px) {
-    * {
-        margin: auto;
-        padding: auto;
-        color: gold;
-        text-decoration: none;
+@media only screen and (min-width: 320px) {
+   
+    .strains3 >img{
+        width: 300px;
+        height: 300px;
     }
-    .fix-footer{
-        padding-top: 400px;
-
+    .services1 {
+        display: none;
     }
-    .orderdiv{
-        display: initial;
-        font-size: 32px;
+    .services2{
+        display: none;
+    }
+    .services3 >img{
+        width: 300px;
+        height: 300px;
+    }
+    .services4{
+        display: none;
+    }
+    .aboutus1{
+        display: none;
+    }
+    .aboutus2 >img{
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+    }
+    .aboutus3{
+        display: none;
+    }
+    .paragraph-text{
+        font-size: 16px;
+        margin: 0.6rem;
+    }
+    .navlogo-fixed {
+        top: 0.9rem;
+        left: 0.2rem;
     }
     .navbar{
-        font-size: 22px;
+        font-size: 12px;
     }
     .logo-background{
-        background-image: url('image23.jpg');
-        background-size: 36% 75%;
-        background-attachment: fixed;
+       background-image: none;
+       padding: 2;
     }
     .home-image-styles { 
         display: flex;
-        padding: 11rem;
+        padding: 2rem;
         flex-direction: row;
         justify-content: center;
-        margin: 0rem;
        
     }
+    .home-image-styles >img{
+        width: 300px;
+        height: 300px;
+        border-radius: 24px;
+    }
+    .section-title{
+        font-size: 12px;
+    } 
+    .footer >ul {
+        font-size: 12px;
+    }
+    .fix-footer{
+        padding-top: 100px;
+
+    }
+
+    
 }
- /* Ending of small-screens media query */
+ /* Ending of Small-screens media query */

@@ -1,5 +1,8 @@
 @media only screen and (min-width: 1700px) {
   
+  .navbar{
+    font-size: 24px;
+}
   .fix-footer{
     padding-top: 400px;
 
@@ -10,15 +13,23 @@
 .navlogo-fixed{
     display: initial;
 }
+.navlogo-fixed >li >a >img{
+  width: 84px;
+  height: 84px;
+  border-radius: 44px;
+
+}
+
+.strains1{
+  display: initial;
+}
 .strains2{
     display: initial;
 }
 .strains4{
     display: initial;
 }
-.strains1{
-    display: initial;
-}
+
 .services1 {
     display: initial;
 }
@@ -33,6 +44,21 @@
 }
 .aboutus3{
     display: initial;
+}
+.aboutus1 >img{
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+}
+.aboutus2 >img{
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+}
+.aboutus3 >img{
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
 }
 
 

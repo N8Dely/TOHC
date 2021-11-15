@@ -1,7 +1,29 @@
 @media only screen and (min-width: 1300px) {
-
-    .navlogo-fixed{
-        display: initial;
+    .navbar{
+        font-size: 23px;
+    }
+    .nav ,ul{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .navlogo-fixed >a >img{
+        width: 74px;
+        height: 74px;
+        border-radius: 44px;
+        margin: 0rem;
+    }
+    .navlogo-fixed {
+        position: fixed;
+        top: 0.5rem;
+        left: 0.5rem;
+    }
+    .strains1 >img{
+        width: 400px;
+        height: 400px;
+    }
+    .strains3 >img{
+        width: 400px;
+        height: 400px;
     }
     
     .strains3{
@@ -10,19 +32,45 @@
     .strains4{
         display: initial;
     }
+    .paragraph-text{
+        font-size: 22px;
+        margin: 1.4rem;
+    }
+    .services1 >img{
+        width: 400px;
+        height: 400px;
+    }
+    .services3 >img {
+        border-radius: 90px 5px 110px;
+        width: 400px;
+        height: 400px;
+    }
+    .services3 >img{
+        width: 400px;
+        height: 400px;
+    }
     .services1{
         display: initial;
     }
     .services4{
         display: initial;
     }
-
-    
-    .aboutus3{
+    .aboutus1{
         display: initial;
+    }
+    .aboutus2 >img{
+        display: initial;
+        height: 400px;
+        width: 400px;
+    }
+    .aboutus3 >img{
+        display: initial;
+        height: 400px;
+        width: 400px;
     }
 
 
 
 
-} /* Ending of large-screens media query */
+
+} /* Ending of Large-screens media query */

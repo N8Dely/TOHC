@@ -1,19 +1,67 @@
 @media only screen and (min-width: 900px) {
     
     
-
+    .navbar{
+        font-size: 22px;
+    }
     .strains1{
         display: initial;
     }
-   
+    .strains1 >img{
+        width: 405px;
+        height: 405px;
+    }
+    .strains3 >img{
+        width: 405px;
+        height: 405px;
+    }
+    .services1 >img{
+        width: 405px;
+        height: 405px;
+    }
+    .services3 >img {
+        border-radius: 5px 90px 10px;
+        width: 405px;
+        height: 405px;
+    }
     .services1{
         display: initial;
     }
     .aboutus3{
         display: initial;
     }
+    .aboutus2 >img{
+        border-radius: 50%;
+        width: 405px;
+        height: 405px;
+    }
+    .aboutus3 >img{
+        border-radius: 50%;
+        width: 405px;
+        height: 405px;
+    }
+    .paragraph-text{
+        font-size: 20px;
+    }
+    .section-title{
+        font-size: 22px;
+    } 
+    .navlogo-fixed >a >img{
+        width: 64px;
+        height: 64px;
+        border-radius: 44px;
+        margin: 0rem;
+    }
+    .navlogo-fixed {
+        position: fixed;
+        top: 0.3rem;
+        left: 0.4rem;
+    }
+    .footer >ul {
+        font-size: 22px;
+    }
 
 
 
 
-} /* Ending of medium-screens media query */
+} /* Ending of Medium-screens media query */

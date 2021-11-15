@@ -2,22 +2,27 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
 
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 280px) {
     * {
         margin: auto;
         padding: auto;
         color: gold;
         text-decoration: none;
     }
-    .fix-footer{
-        padding-top: 100px;
-
-    }
     .orderdiv{
         display: none;
     }
-    .navlogo-fixed{
+    .order-li4 {
         display: none;
+    }
+    .navlogo-fixed >a >img{
+        width: 34px;
+        height: 34px;
+        border-radius: 44px;
+    
+    }
+    .navlogo-fixed{
+        justify-content: space-evenly;
     }
     .strains2{
         display: none;
@@ -28,14 +33,20 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     .strains1{
         display: none;
     }
-    .strains2{
-        display: none;
+    .strains3 >img{
+        width: 260px;
+        height: 260px;
     }
+    
     .services1 {
         display: none;
     }
     .services2{
         display: none;
+    }
+    .services3 >img{
+        width: 260px;
+        height: 260px;
     }
     .services4{
         display: none;
@@ -43,11 +54,22 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     .aboutus1{
         display: none;
     }
+    .aboutus2 >img{
+        border-radius: 50%;
+        width: 260px;
+        height: 260px;
+    }
     .aboutus3{
         display: none;
     }
+    .paragraph-text{
+        font-size: 13px;
+    }
+    .extra-filler{
+        display: none;
+    }
     .navbar{
-        font-size: 12px;
+        font-size: 10px;
     }
     .logo-background{
        background-image: none;
@@ -60,9 +82,22 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         justify-content: center;
        
     }
+    .home-image-styles >img{
+        width: 260px;
+        height: 260px;
+        border-radius: 24px;
+    }
     .section-title{
-        font-size: 16px;
+        font-size: 12px;
     } 
+    .footer >ul {
+        font-size: 12px;
+    }
+    .fix-footer{
+        padding-top: 100px;
+
+    }
+
     
 }
- /* Ending of super-small-screens media query */
+ /* Ending of Smallest-screens media query */
