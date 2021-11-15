@@ -1,8 +1,8 @@
 * {
     margin: auto;
-    padding: auto;
     color: gold;
     text-decoration: none;
+    text-shadow: 1px 1px 1px black;
 }
 .nav ,ul {
     list-style: none;
@@ -13,11 +13,13 @@
     padding-top: 1.5rem; 
     flex-direction: row;
     margin: 0;
-    justify-content: left;
+    justify-content: right;
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    
+}
+.nav >ul >li >a {
+    color: gold;
 }
 .navbar {
     font-size: 22px;
@@ -95,20 +97,19 @@
 
 a:hover {
     flood-opacity: 100%;
-    color: blueviolet;
+     color: blueviolet;
 }
-
-
 .main-content {
     display: flexbox;
-    background-color: black;
     margin: auto;
     padding: auto;
     width: 100%;
     height: 100%;
 }
 
-.footer>ul {
+
+
+.footer >ul {
     list-style: none;
     background-color: darkgreen;
     display: flex;
@@ -120,9 +121,9 @@ a:hover {
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    color: cornsilk;
     width: 100%;
-}
+} 
+
 .strains1 > img{
     border-radius: 44px;
     height: 400px;
@@ -182,21 +183,37 @@ a:hover {
     width: 400px;
     height: 400px;
 }
+.darkmode-toggle {
+    justify-content: right;
+    background-color: darkgreen;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: right;
+}
+
 /* 3D Carousel rotating by Claudiu Lazar */
 
 body {
     text-align: justify;
     height: 100%;
     width: 100%;
+    background-color: cornsilk;
+    display: flexbox;
+    margin: auto;
+    padding: auto;
   }
-
+  .dark-mode{
+    background-color: black;
+    color: gold;
+    text-shadow: 1px 1px 1px darkgreen;
+  }
   .container {
     position: relative;
     max-width:  300px;
     margin: auto;
     perspective: 1000px;
     display: flexbox;
-    background-color: black;
     padding: auto;
     width: 100%;
     height: 100%;
@@ -269,8 +286,12 @@ body {
     height: 100%;
 }
 .fix-footer{
-    padding-top: 400px;
+    padding-top: 40px;
 } 
+.footer-darkmode-toggle >a {
+    color: black;
+    
+}
 /* 3D Carousel rotating by Claudiu Lazar
 
 

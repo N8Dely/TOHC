@@ -1,14 +1,5 @@
 @media only screen and (min-width: 768px) {
-    * {
-        margin: auto;
-        padding: auto;
-        color: gold;
-        text-decoration: none;
-    }
-    .fix-footer{
-        padding-top: 400px;
-
-    }
+    
     .orderdiv{
         display: initial;
         font-size: 32px;
@@ -73,9 +64,9 @@
         justify-content: center;
         margin: 0rem;
     }
-    .footer >ul {
-        font-size: 16px;
+    .fix-footer{
+        padding-top: 400px;
+        font-size: 18px;
     }
-    
 }
  /* Ending of SMedium-screens media query */

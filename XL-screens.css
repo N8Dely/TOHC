@@ -60,6 +60,10 @@
   width: 500px;
   height: 500px;
 }
+.fix-footer{
+  padding-top: 400px;
+  font-size: 22px;
+}
 
 
 
