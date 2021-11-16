@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="Medium-screens.css">
     <link rel="stylesheet" href="large-screens.css">
     <link rel="stylesheet" href="XL-screens.css">
-    <script  type="text/javascript" src="TOHC.js"></script>
+    <script type="text/javascript" src="TOHC.js"></script>
 
 </head>
 <div class="main-content">
@@ -30,12 +30,23 @@
                         <div class="navlogo-fixed">
                             <a href="#Home"><img src="logo.jpg" alt=""></a>
                         </div>
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="#Strains">Strains</a></li>
-                        <li><a href="#Services">Services</a></li>
-                        <li><a href="#About Us">About Us</a></li>
-                        <div class="order-li4">
-                            <li><a href="#Order">Order</a></li>
+                        <div class="hide-nav">
+                            <li><a href="#Strains">Strains</a></li>
+                            <li><a href="#Services">Services</a></li>
+                            <li><a href="#About Us">About Us</a></li>
+                            <div class="order-li4">
+                                <li><a href="#Order">Order</a></li>
+                            </div>
+                        </div>
+                        <div class="drop-down-nav">
+                            <div class="drop-nav-logo">
+                                <button onclick="dropnavfunc()" class="navdrop">Navigation</button>
+                            </div>
+                            <div id="tohc-drop-nav" class="drop-links">
+                                <a href="#Strains">Strains</a>
+                                <a href="#Services">Services</a>
+                                <a href="#About Us">About</a>
+                            </div>
                         </div>
                     </ul>
                 </div>

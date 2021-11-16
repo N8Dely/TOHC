@@ -15,8 +15,8 @@ html{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         display: none;
     }
     .navlogo-fixed >a >img{
-        width: 34px;
-        height: 34px;
+        width: 54px;
+        height: 54px;
         border-radius: 44px;
     
     }
@@ -70,6 +70,7 @@ html{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     .navbar{
         font-size: 10px;
     }
+    
     .logo-background{
        background-image: none;
        padding: 2;
@@ -97,6 +98,20 @@ html{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         font-size: 12px;
         text-align: center;
 
-    }  
+    }
+    .hide-nav {
+        display: none;
+    }
+    .navlogo-fixed >a {
+        position: fixed;
+        top: 0.4rem;
+        left: 0.4rem;
+    }
+    .drop-nav-logo >img {
+        height: 54px;
+        width: 54px;
+        border-radius: 44px;
+        display: flex;
+    }
 }
  /* Ending of Smallest-screens media query */

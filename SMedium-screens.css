@@ -68,5 +68,14 @@
         padding-top: 400px;
         font-size: 18px;
     }
+    .drop-down-nav {
+        display: none;
+    }
+    .hide-nav {
+        display: contents;
+        flex-direction: row;
+        justify-content: space-evenly;
+        display: flexbox;
+    }
 }
  /* Ending of SMedium-screens media query */
