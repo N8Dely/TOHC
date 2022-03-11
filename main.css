@@ -79,6 +79,12 @@
     margin: 0rem;
     align-content: center;
 }
+.shopping-cart-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 25px;
+} 
 
 .section-title {
     display: flex;
@@ -288,6 +294,9 @@ body {
 } 
 .footer-darkmode-toggle >a {
     color: black;
+}
+.shopping-fix-footer {
+    display: block;
 }
 .footer-darkmode-toggle {
     background-color: cornsilk;
