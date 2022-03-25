@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Normalize.css">
+    <link rel="stylesheet" href="Small-screens.css">
+    <link rel="stylesheet" href="SMedium-screens.css">
+    <link rel="stylesheet" href="Medium-screens.css">
+    <link rel="stylesheet" href="large-screens.css">
+    <link rel="stylesheet" href="XL-screens.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Smallest-screens.css">
+    <link rel="stylesheet" href="signUp.css">
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="signUp.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <div class="navlogo-fixed">
+                        <a href="index.html#Home"><img src="logo.jpg" alt=""></a>
+                    </div>
+                    <div class="hide-nav">
+                        <li><a href="index.html#Strains">Strains</a></li>
+                        <li><a href="index.html#Services">Services</a></li>
+                        <li><a href="index.html#About Us">About Us</a></li>
+                        <li><a href="shoppingCart.html">Shopping Cart</a></li>
+                        <li><a href="signUp.html">Sign Up</a></li>
+                    </div>
+                    <div class="drop-down-nav">
+                        <div class="drop-nav-logo">
+                            <button onclick="dropnavfunc()" class="navdrop">Navigation</button>
+                        </div>
+                        <div id="tohc-drop-nav" class="drop-links">
+                            <a href="index.html#Strains">Strains</a>
+                            <a href="index.html#Services">Services</a>
+                            <a href="index.html#About Us">About</a>
+                            <a href="shoppingCart.html">Shopping Cart</a>
+                            <li><a href="signUp.html">Sign Up</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Login</h2>
+
+        <form action="">
+            <div class="form-item">
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+
+            <div class="form-item">
+                <!-- add a password format display -->
+                <span class="pwd-format">
+                    8-15 AlphaNumeric Characters
+                </span>
+                <input type="password" name="password" id="password" placeholder="Enter password">
+            </div>
+
+            <div class="accept-box">
+                <input type="checkbox" name="accept" id="accept">
+                <p>I accept the <a href="#">Terms & Conditions</a></p>
+            </div>
+
+            <div class="form-btns">
+                <button class="signup" type="submit" disabled>Sign Up</button>
+            </div>
+
+        </form>
+        <p>Copyright &copy; The Ohio Hemp Co. </p>
+    </div>
+</body>
+<div id="app"></app>
+    <div class="fix-footer">
+        <section id="footer" class="footer">
+            <footer>
+                <ul>
+                    <div class="footer">
+                        <li>The Ohio Hemp Company&trade;</li>
+                        <li>Copyright &copy; 2021</li>
+                        <li>All Rights Reserved</li>
+                    </div>
+                </ul>
+                <div class="darkmode-toggle">
+                    <button class="footer-darkmode-toggle"><a role="button"
+                            onclick="darkmode()">DarkMode</a></button>
+                </div>
+            </footer>
+        </section>
+    </div>
+</body>
+</div>
+</html>
