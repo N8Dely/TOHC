@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="logo.jpg">
     <link rel="stylesheet" href="Normalize.css">
     <link rel="stylesheet" href="Small-screens.css">
     <link rel="stylesheet" href="SMedium-screens.css">
@@ -15,9 +17,11 @@
     <link rel="stylesheet" href="signUp.css">
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="signUp.js"></script>
+    <script type="text/javascript" src="external.js"></script>
     <title>Login</title>
 </head>
-<body>
+
+<body class="main-content">
     <header>
         <nav>
             <div class="navbar">
@@ -37,9 +41,9 @@
                             <button onclick="dropnavfunc()" class="navdrop">Navigation</button>
                         </div>
                         <div id="tohc-drop-nav" class="drop-links">
-                            <a href="index.html#Strains">Strains</a>
-                            <a href="index.html#Services">Services</a>
-                            <a href="index.html#About Us">About</a>
+                            <a href="#Strains">Strains</a>
+                            <a href="#Services">Services</a>
+                            <a href="#About Us">About</a>
                             <a href="shoppingCart.html">Shopping Cart</a>
                             <li><a href="signUp.html">Sign Up</a></li>
                         </div>
@@ -49,35 +53,36 @@
         </nav>
     </header>
     <div class="container">
-        <h2>Login</h2>
-
-        <form action="">
-            <div class="form-item">
-                <input type="email" name="email" id="email" placeholder="Email">
-            </div>
-
-            <div class="form-item">
-                <!-- add a password format display -->
-                <span class="pwd-format">
-                    8-15 AlphaNumeric Characters
-                </span>
-                <input type="password" name="password" id="password" placeholder="Enter password">
-            </div>
-
-            <div class="accept-box">
-                <input type="checkbox" name="accept" id="accept">
-                <p>I accept the <a href="#">Terms & Conditions</a></p>
-            </div>
-
-            <div class="form-btns">
-                <button class="signup" type="submit" disabled>Sign Up</button>
-            </div>
-
-        </form>
-        <p>Copyright &copy; The Ohio Hemp Co. </p>
+        <!--Add few elements to the form-->
+        <h1>Login</h1>
+        <div>
+            <input type="text" id="txtName" placeholder="Ente Name" />
+        </div>
+        <div>
+            <input type="text" id="txtEmail" placeholder="Email Address" />
+        </div>
+        <div>
+            <select id="txtRanking">
+                <option selected value="">-- Rank Our Website --</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div>
+            <textarea id="msg" name="msg" placeholder=" Write Something Nice..." style="height: 100px;"></textarea>
+        </div>
+        <div>
+            <input type="button" id="bt" value="Submit" onclick="saveFile()" />
+        </div>
     </div>
-</body>
-<div id="app"></app>
     <div class="fix-footer">
         <section id="footer" class="footer">
             <footer>
@@ -89,12 +94,11 @@
                     </div>
                 </ul>
                 <div class="darkmode-toggle">
-                    <button class="footer-darkmode-toggle"><a role="button"
-                            onclick="darkmode()">DarkMode</a></button>
+                    <button class="footer-darkmode-toggle"><a role="button" onclick="darkmode()">DarkMode</a></button>
                 </div>
             </footer>
         </section>
     </div>
 </body>
-</div>
+
 </html>
