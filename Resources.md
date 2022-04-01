@@ -30,10 +30,10 @@ https://codepen.io/AllThingsSmitty/pen/MmxxOz/ - Custom Checkbox Toggle Slider b
 
 https://www.w3schools.com/howto/howto_js_dropdown.asp - dropdown navigation
 
- Pluralsight - Creating Page Layouts with CSS (media queries) - Paul Cheney
+Pluralsight - Creating Page Layouts with CSS (media queries) - Paul Cheney
 
- https://codepen.io/_vidyasheela/pen/ZEygpOp - Vidyasheela
+https://codepen.io/_vidyasheela/pen/ZEygpOp - Vidyasheela
 
- https://codepen.io/amjayesh07/pen/bGBPMxx - Jayesh Dhage
+https://codepen.io/amjayesh07/pen/bGBPMxx - Jayesh Dhage
 
- https://codepen.io/breuxi/pen/wvGLvOJ?editors=0011 - Breuxi
+https://codepen.io/breuxi/pen/wvGLvOJ?editors=0011 - Breuxi
