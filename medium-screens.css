@@ -64,6 +64,29 @@
         padding-top: 400px;
         font-size: 20px;
     }
+    .carousel_Strains { 
+        position: absolute;
+        justify-content: center;
+        width: 300px;
+        height: 387px;
+        top: 20px;
+        left: 10px;
+        right: 10px;
+        background-size: cover;
+        display: flexbox;
+    
+      }
+
+      .containerToo {
+        position: relative;
+        max-width:  300px;
+        margin: auto;
+        perspective: 1000px;
+        display: flexbox;
+        padding: auto;
+        width: 100%;
+        height: 100%;
+      }
 
 
 

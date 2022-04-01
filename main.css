@@ -1,8 +1,9 @@
 * {
     margin: auto;
-    color: gold!important;
+    color: gold;
     text-decoration: none;
-     text-shadow: 0.5px 0.5px 0.5px darkgreen; 
+     text-shadow: 0.5px 0.5px 0.5px darkgreen;
+    font-size: 24px; 
 }
 .nav ,ul {
     list-style: none;
@@ -212,7 +213,7 @@ body {
   .dark-mode{
     background-color: black;
   }
-  .container {
+  .containerToo {
     position: relative;
     max-width:  300px;
     margin: auto;
@@ -236,12 +237,12 @@ body {
     position: absolute;
     justify-content: center;
     width: 300px;
-    height: 187px;
+    height: 287px;
     top: 20px;
     left: 10px;
     right: 10px;
     background-size: cover;
-    display: flex;
+    display: flexbox;
 
   }
   
@@ -447,7 +448,7 @@ a:hover {
 }
 
 p {
-    font-size: 12px;
+ 
 }
 
 .pwd-format {
