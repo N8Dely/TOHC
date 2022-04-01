@@ -1,35 +1,35 @@
-let savedFile = () => {
+/*let fileSave = () => {
     // Get the data from each element on the form.
-    const name = document.getElementById("txtName");
-    const email = document.getElementById("txtEmail");
-    const country = document.getElementById("selCountry");
-    const msg = document.getElementById("msg");
+    const nameToo = document.getElementById("txtNameToo");
+    const emailToo = document.getElementById("txtEmailToo");
+    const countryToo = document.getElementById("selCountryToo");
+    const msgToo = document.getElementById("msgToo");
 
     // This variable stores all the data.
-    let data = " \r txtName: " + name.value + " \r\n " + "Email: " + email.value + " \r\n " + "Country: " + country.value + " \r\n " + "Message: " + msg.value;
-    console.log(data); //printing form data into the console
+    let dataToo = " \r Name: " + nameToo.value + " \r\n " + "Email: " + emailToo.value + " \r\n " + "Country: " + countryToo.value + " \r\n " + "Message: " + msgToo.value;
+    console.log(dataToo); //printing form data into the console
     // Convert the text to BLOB.
-    const textToBLOB = new Blob([data], { type: "text/plain" });
-    var filename = new Date();
-    var month =new Date(); //months from 1-12
-    month = month.getMonth();
+    const textToBLOBToo = new Blob([dataToo], { type: "text/plain" });
+    var filenameToo = new Date();
+    var monthToo =new Date(); //months from 1-12
+    monthToo = monthToo.getMonth();
 
-    var day = new Date();
-    var day = day.getUTCDate();
+    var dayToo = new Date();
+    var dayToo = dayToo.getUTCDate();
 
-    var year = new Date();
-    var year = year.getUTCFullYear();
+    var yearToo = new Date();
+    var yearToo = yearToo.getUTCFullYear();
 
-    newdate = year + "/" + month + "/" + day;
-    const sFileName = filename; // The file to save the data.
+    newdateToo = yearToo + "/" + monthToo + "/" +  dayToo;
+    const sFileNameToo = filenameToo; // The file to save the data.
 
-    let newLink = document.createElement("a");
+    let newLink  = document.createElement("a");
     newLink.download = new Date();
 
     if (window.webkitURL != null) {
-        newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+        newLink.href = window.webkitURL.createObjectURL(textToBLOBToo);
     } else {
-        newLink.href = window.URL.createObjectURL(textToBLOB);
+        newLink.href = window.URL.createObjectURL(textToBLOBToo);
         newLink.style.display = "none";
         document.body.appendChild(newLink);
     }
@@ -41,46 +41,46 @@ let savedFile = () => {
 
 
 // Create the function refercenced in the Button
-function countWords() {
+function countWordsToo() {
     // Get the textbox by its id
-    var textbox = document.querySelector("#mytext");
+    var textboxToo = document.querySelector("#mytextToo");
     
     // Get the text
-    var text = textbox.value;
+    var textToo = textboxToo.value;
     
     // Get an array of the single words by splitting at whitespace
-    var words = text.split(" ");
+    var wordsToo = textToo.split(" ");
     
     // Get the lenght of the array and alert it
-    var output = document.querySelector("#output");
+    var outputToo = document.querySelector("#outputToo");
     
     // Set the lenght of the word array -> word count as the content of the output
-    output.innerHTML = "Word Count " + words.length;
-    console.log("Word Count " + words.length);
-    console.log(words);
+    outputToo.innerHTML = "Word Count " + wordsToo.length;
+    console.log("Word Count " + wordsToo.length);
+    console.log(wordsToo);
 
     //const BLOBS = new Blob (["Message " + words], { type: "text/plain" });
-    const textToBLOB = new Blob(["Message " + words + '\n' + "Word Count " + words.length], { type: "text/plain" });
-    var filename = new Date();
-    var month =new Date(); //months from 1-12
-    month = month.getMonth();
+    const textToBLOBToo = new Blob(["Message " + wordsToo + '\n' + "Word Count " + wordsToo.length], { type: "text/plain" });
+    var filenameToo = new Date();
+    var monthToo =new Date(); //months from 1-12
+    monthToo = monthToo.getMonth();
 
-    var day = new Date();
-    var day = day.getUTCDate();
+    var dayToo = new Date();
+    var dayToo = dayToo.getUTCDate();
 
-    var year = new Date();
-    var year = year.getUTCFullYear();
+    var yearToo = new Date();
+    var yearToo = yearToo.getUTCFullYear();
 
-    newdate = year + "/" + month + "/" + day;
-    const sFileName = filename; // The file to save the data.
+    newdateToo = yearToo + "/" + monthToo + "/" + dayToo;
+    const sFileNameToo = filenameToo; // The file to save the data.
 
     let newLink = document.createElement("a");
     newLink.download = new Date();
 
     if (window.webkitURL != null) {
-        newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+        newLink.href = window.webkitURL.createObjectURL(textToBLOBToo);
     } else {
-        newLink.href = window.URL.createObjectURL(textToBLOB);
+        newLink.href = window.URL.createObjectURL(textToBLOBToo);
         newLink.style.display = "none";
         document.body.appendChild(newLink);
     }
@@ -88,4 +88,4 @@ function countWords() {
 
     newLink.click();
 
-};
+};*/

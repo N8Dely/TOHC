@@ -77,5 +77,18 @@
         justify-content: space-evenly;
         display: flexbox;
     }
+    .carousel_Strains { 
+        position: absolute;
+        justify-content: center;
+        width: 335px;
+        height: 335px;
+        top: 20px;
+        left: 10px;
+        right: 10px;
+        background-size: cover;
+        display: flexbox;
+    
+    
+      }
 }
  /* Ending of SMedium-screens media query */

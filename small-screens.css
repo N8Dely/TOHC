@@ -63,7 +63,21 @@
         font-size: 16px;
         text-align: center;
     }
+    .orderdiv{
+        display: initial;
+    }
 
+    .carousel_Strains { 
+        position: absolute;
+        justify-content: center;
+        width: 335px;
+        height: 335px;
+        top: 15px;
+        left: 8px;
+        right: 8px;
+        background-size: cover;
+        display: flex;
+    }
     
 }
  /* Ending of Small-screens media query */
