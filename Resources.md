@@ -35,3 +35,5 @@ https://www.w3schools.com/howto/howto_js_dropdown.asp - dropdown navigation
  https://codepen.io/_vidyasheela/pen/ZEygpOp - Vidyasheela
 
  https://codepen.io/amjayesh07/pen/bGBPMxx - Jayesh Dhage
+
+ https://codepen.io/breuxi/pen/wvGLvOJ?editors=0011 - Breuxi
